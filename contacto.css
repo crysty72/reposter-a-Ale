@@ -1,0 +1,87 @@
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+/* Apply basic styling to the main-contacto class */
+.main-contacto {
+    text-align: center;
+    margin: 1px;
+    background-image: url(https://i.pinimg.com/originals/e2/f6/e9/e2f6e9bf86569eea0f1187b95636c28e.jpg);
+    background-repeat: no-repeat;
+     background-size: cover;
+     height: 900px;
+     padding: 0.5px;
+    
+  }
+  
+  /* Style the heading within the main-contacto class */
+  .p-contacto {
+    font-size: 60px;
+    color: #0e0d0d;
+    
+  }
+  
+.icono-flecha{
+    height: 50px;
+}
+ 
+ 
+ 
+  
+  
+  /* Style the enviar-mensaje class */
+  .enviar-mensaje {
+    margin-top: 30px;
+  }
+  
+  /* Style the btn-main class (button) */
+  .btn-main {
+    display: inline-block;
+    padding: 20px 30px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Hover effect for the button */
+  .btn-main:hover {
+    background-color: #0056b3;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

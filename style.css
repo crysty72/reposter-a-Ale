@@ -1,0 +1,167 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+header {
+    background-color: #a9d3e5;
+    padding: 20px ;
+  
+}
+
+.caja{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+.logos-header{
+    display: flex; /* Establecer el contenedor como flexbox */
+    justify-content: space-around; /* Espaciado uniforme entre los elementos flexibles */
+    align-items: center; /* Centrar verticalmente los elementos flexibles */
+    height: 200px;; /* Establecer la altura del contenedor al 100% del viewport */
+    margin: 0; /* Eliminar márgenes predeterminados del body */
+
+}
+.logo{
+    width: 200px;
+    border-radius: 50%;
+}
+.Ale{
+    width: 200px;
+    border-radius: 50%;
+   
+}
+nav li{
+   font-size: 20px;
+   
+    position: relative;
+}
+/* Estilos para el menú desplegable */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.submenu li {
+    width: 100%;
+    text-align: right;
+}
+
+nav li:hover .submenu {
+    display: block;
+}
+nav a:hover{
+    color: #c78c19;
+    text-decoration: underline;
+}
+.banner{
+    width: 100%;
+}
+.principal {
+    padding: 3em 0;
+    background-color: #5299a4;
+   width: 100%;
+    margin:0;
+    height: 300px;
+}
+.titulo-principal {
+  text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+    padding-left: 20px;
+   
+ }
+.imagen-main {
+    width: 400px;
+    float: left;
+    margin: 10px;
+   
+    
+ }
+
+ .descripcion-delicias{
+   
+        font-size: 18px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+        padding: 20px;
+    }
+strong{
+    color:chartreuse;
+}
+.mapa{
+    padding: 3em 0;
+    background: linear-gradient(#FEFEFE,  #888888)
+}
+    
+.mapa p{
+    margin: 0 0 2em;
+    text-align: center;
+    font-size: 20px;
+}
+    
+.mapa-contenido{
+    width: 940px;
+    margin: 0 auto;
+}
+iframe{
+    margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+footer{
+    text-align: center;
+    padding: 2px;
+    background-image: url(https://s1.1zoom.me/big0/590/Petals_Light_Blue_473244.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.logoAle{
+    width: 200px;
+  padding: 50px;
+  margin: 20px;
+  border-radius: 50%;
+ }
+ 
+ .logo-footer{
+     width: 200px;
+     padding: 50px;
+     margin: 20px;
+     border-radius: 50%;
+ }
+ .copyright{
+     
+         color:black;
+         font-size: 20px;
+         margin: 0px;
+     
+ }
+ 
+
+
