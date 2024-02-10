@@ -16,7 +16,7 @@ header {
     margin: 0 auto;
 }
 .logos-header{
-    display: flex; /* Establecer el contenedor como flexbox */
+    display:flex; /* Establecer el contenedor como flexbox */
     justify-content: space-around; /* Espaciado uniforme entre los elementos flexibles */
     align-items: center; /* Centrar verticalmente los elementos flexibles */
     height: 200px;; /* Establecer la altura del contenedor al 100% del viewport */
@@ -38,19 +38,22 @@ nav li{
     position: relative;
 }
 /* Estilos para el menú desplegable */
+
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
+    display:flex;
 }
 nav a {
-    display: block;
+    display: flex;
     padding: 10px;
     text-decoration: none;
     color: #333;
 }
-
+.producto{
+    margin-top: 10px;
+}
 .submenu {
     display: none;
     position: absolute;
@@ -162,6 +165,3 @@ footer{
          margin: 0px;
      
  }
- 
-
-
