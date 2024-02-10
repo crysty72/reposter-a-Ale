@@ -165,3 +165,48 @@ footer{
          margin: 0px;
      
  }
+/*movil*/
+/*Portrait*/
+/*Default*/
+@media (max-width: 575.98px)and (orientation:portrait) {
+    .logos-header{
+        display:block; 
+        justify-content: space-around;
+        align-items: center; 
+        height: 200px;
+        margin: 0;
+ }
+ .imagen-main {
+    width: 300px;
+    float: left;
+    margin: 10px;
+   
+    
+ }
+
+ .descripcion-delicias{
+   
+        font-size: 18px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 5px;
+        margin-inline-end: 5px;
+        padding: 20px;
+    }
+strong{
+    color:chartreuse;
+}
+
+}
+/*landscape*/
+@media (min-width: 576px) and (max-width: 991.98px) and (orientation:landscape) {
+    .logos-header{
+        display:block; 
+        justify-content: space-around;
+        align-items: center; 
+        height: 200px;
+        margin: 0;
+    }
+}
+/*fin movil*/
